@@ -1,0 +1,9 @@
+logging:
+  config: logback-spring-dev.xml  #logback-spring.xml
+
+Rpc:
+  zkSessionTimeout: 1000
+  zkDataPath: /HRpc/data
+  zkRegistryPath: /HRpc
+  registryAddress: 127.0.0.1:2181
+  serverAddress:  127.0.0.1:8000
